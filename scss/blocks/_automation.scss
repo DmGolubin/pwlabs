@@ -1,0 +1,57 @@
+.automation {
+  padding: 0 0 128px;
+  background: url(../../img/backgrounds/automation-bg.jpg) center center/cover
+    no-repeat;
+}
+
+.automation__pad {
+  margin: -196px auto 135px;
+  background: #fff;
+  max-width: 1056px;
+  position: relative;
+  width: 100%;
+  padding: 64px 48px 121px;
+  text-align: center;
+  box-shadow: 0px 4px 17px rgba(193, 211, 237, 0.56);
+  border-radius: 4px;
+}
+
+.automation__pad-title {
+  color: #2d2e55;
+  margin-bottom: 18px;
+  span {
+    color: $primary-color;
+  }
+}
+
+.automation__pad-text {
+  font-weight: 300;
+  line-height: 21px;
+}
+
+.automation__title {
+  font-size: 60px;
+  color: $primary-color;
+  margin-bottom: 32px;
+}
+
+.automation__list {
+  margin-left: 40px;
+}
+
+.automation__list-item {
+  margin-bottom: 18px;
+  position: relative;
+  font-size: 21px;
+  line-height: 28px;
+  font-weight: 300;
+  max-width: 1000px;
+  width: 100%;
+  &:last-child {
+    margin-bottom: 0;
+  }
+  svg {
+    position: absolute;
+    left: -40px;
+  }
+}

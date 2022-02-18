@@ -1,0 +1,53 @@
+.btn {
+  width: 670px;
+  height: 144px;
+  background: $secondary-color;
+  color: #2d2e55;
+  border: none;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  font-size: 32px;
+  line-height: 38px;
+  padding: 34px 176px 34px 48px;
+  text-align: left;
+  position: relative;
+  span {
+    color: $primary-color;
+  }
+  svg {
+    position: absolute;
+    top: 50%;
+    right: 32px;
+    transform: translateY(-50%);
+  }
+  &_login {
+    display: none;
+    background: $primary-color;
+    color: #ffffff;
+    width: 117px;
+    height: 40px;
+    font-size: 14px;
+    padding: 2px 20px 13px 48px;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin: 0 auto 48px;
+    svg {
+      left: 20px;
+    }
+  }
+  &_mobile {
+    display: none;
+    text-transform: uppercase;
+    color: $primary-color;
+    font-weight: 600;
+    width: 224px;
+    height: 56px;
+    padding: 0 78px 0 35px;
+    font-size: 16px;
+    svg {
+      width: 31px;
+      height: 31px;
+      right: 33px;
+    }
+  }
+}

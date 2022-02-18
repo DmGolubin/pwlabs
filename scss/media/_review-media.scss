@@ -1,0 +1,30 @@
+@media (max-width: 920px) {
+  .review {
+    padding: 88px 0;
+  }
+  .review__title {
+    font-size: 50px;
+  }
+}
+
+@media (max-width: 750px) {
+  .review {
+    padding: 68px 0;
+    background-position: -200px;
+  }
+  .review__title {
+    font-size: 40px;
+  }
+  .btn {
+    display: none;
+    &_mobile {
+      display: inline-block;
+    }
+  }
+}
+
+@media (max-width: 750px) {
+  .review__title {
+    font-size: 32px;
+  }
+}

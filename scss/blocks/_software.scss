@@ -1,0 +1,43 @@
+.software {
+  padding: 128px 0 327px;
+  position: relative;
+  background: url(../img/backgrounds/software-bg.jpg) center center/cover
+    no-repeat;
+}
+
+.software__img {
+  position: absolute;
+  max-width: 580px;
+  width: 100%;
+}
+
+.software__wrapper {
+  color: #fff;
+  margin-left: 600px;
+}
+
+.software__title {
+  color: $secondary-color;
+  font-size: 60px;
+  margin-bottom: 50px;
+}
+
+.software__list {
+  margin-left: 40px;
+}
+
+.software__list-item {
+  margin-bottom: 18px;
+  font-size: 21px;
+  line-height: 28px;
+  font-weight: 300;
+  position: relative;
+  &:last-child {
+    margin-bottom: 0;
+  }
+  span {
+    position: absolute;
+    left: -40px;
+    top: 5px;
+  }
+}

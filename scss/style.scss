@@ -1,0 +1,21 @@
+@import "base/bootstrap-reboot";
+@import "base/vars";
+
+.container {
+  max-width: 1420px;
+  padding: 0 20px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+@import "blocks/burger";
+@import "blocks/buttons";
+@import "blocks/fonts";
+@import "blocks/header";
+@import "blocks/promo";
+@import "blocks/software";
+@import "blocks/automation";
+@import "blocks/decision";
+@import "blocks/review";
+@import "blocks/footer";
+@import "media/media";

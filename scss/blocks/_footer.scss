@@ -1,0 +1,134 @@
+.footer {
+  padding: 32px 0 48px;
+}
+
+.footer__top,
+.footer__bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer__login {
+  position: relative;
+  transition: 0.3s all;
+  span {
+    font-size: 21px;
+    font-weight: 600;
+    color: #7c8a95;
+    &:hover {
+      color: $primary-color;
+    }
+  }
+  svg {
+    position: absolute;
+    top: 50%;
+    left: -22px;
+    transform: translateY(-50%);
+  }
+}
+
+.footer__text {
+  color: #4b5271;
+  margin: 24px 0 46px;
+}
+
+.footer__line {
+  width: 100%;
+  height: 1px;
+  background: #c9cbd4;
+}
+
+.footer__items {
+  margin: 24px 0 60px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__item {
+  max-width: 236px;
+  width: 100%;
+}
+
+.footer__item-title {
+  font-size: 16px;
+  font-weight: 600;
+  color: #2d2e55;
+  text-transform: uppercase;
+  margin-bottom: 18px;
+}
+
+.footer__list-item {
+  margin-bottom: 16px;
+  &:last-child {
+    margin-bottom: 0;
+  }
+  a {
+    color: #7c8a95;
+    font-weight: 300;
+  }
+}
+
+.footer__list-item_contact {
+  color: #2d2e55;
+  address,
+  span,
+  a {
+    color: #7c8a95;
+    font-weight: 300;
+    font-size: 12px;
+    margin-top: 8px;
+  }
+}
+
+.footer__item-social {
+  max-width: 140px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 36px;
+}
+
+.footer__social-circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  transition: 0.3s all;
+  color: $primary-color;
+  &:hover {
+    background: $primary-color;
+    span {
+      color: #fff;
+    }
+  }
+}
+
+.footer__rules {
+  max-width: 300px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.footer__bottom {
+  margin-top: 17px;
+}
+
+.footer__rules {
+  a {
+    color: $primary-color;
+  }
+}
+
+.footer__links {
+  display: flex;
+  max-width: 300px;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}

@@ -1,0 +1,16 @@
+.review {
+  padding: 128px 0;
+  background: url(../img/backgrounds/review-bg.jpg) center center/cover
+    no-repeat;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.review__title {
+  font-size: 60px;
+  color: #fff;
+  margin-bottom: 64px;
+  span {
+    color: $secondary-color;
+  }
+}

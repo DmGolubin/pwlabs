@@ -1,0 +1,63 @@
+.header__top {
+  padding: 12px 0;
+  background: #f3f7fd;
+  text-align: end;
+}
+
+.header__number {
+  color: #7c8a95;
+  font-size: 14px;
+  padding-right: 8px;
+}
+
+.header__mail {
+  color: #7c8a95;
+  font-size: 14px;
+}
+
+.header__bottom {
+  padding: 13px 0;
+}
+
+.header__wrapper {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu__list-item {
+  display: inline;
+  margin-right: 48px;
+  a {
+    font-size: 21px;
+    font-weight: 600;
+    color: #7c8a95;
+    transition: 0.3s all;
+    &:hover {
+      color: $primary-color;
+    }
+  }
+  &:last-child {
+    margin-right: 68px;
+  }
+}
+
+.header__login {
+  position: relative;
+  transition: 0.3s all;
+  span {
+    font-size: 21px;
+    font-weight: 600;
+    color: #7c8a95;
+    &:hover {
+      color: $primary-color;
+    }
+  }
+  svg {
+    position: absolute;
+    top: 50%;
+    left: -22px;
+    transform: translateY(-50%);
+  }
+}

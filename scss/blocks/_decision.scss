@@ -1,0 +1,29 @@
+.decision {
+  padding: 148px 0 128px;
+  position: relative;
+}
+
+.decision__img {
+  position: absolute;
+  max-width: 552px;
+  width: 100%;
+}
+
+.decision__wrapper {
+  margin-left: 598px;
+}
+
+.decision__title {
+  font-size: 60px;
+  color: $primary-color;
+  margin-bottom: 28px;
+  span {
+    color: #2d2e55;
+  }
+}
+
+.decision__text {
+  font-size: 21px;
+  line-height: 28px;
+  font-weight: 300;
+}
